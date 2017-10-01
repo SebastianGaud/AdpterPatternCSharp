@@ -8,23 +8,23 @@ namespace AdpterPatternCSharp
 {
     public class Employee
     {
-        private int _firstName;
+        private string _firstName;
 
-        public int FirstName
+        public string FirstName
         {
             get { return _firstName; }
             set { _firstName = value; }
         }
 
-        private int _lastName;
+        private string _lastName;
 
-        public int LastName
+        public string LastName
         {
             get { return _lastName; }
             set { _lastName = value; }
         }
 
-        public Employee(int firstName, int lastName)
+        public Employee(string firstName, string lastName)
         {
             _firstName = firstName;
             _lastName = lastName;
