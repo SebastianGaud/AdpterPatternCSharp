@@ -10,7 +10,7 @@ namespace NumberGeneratorAdapterExample
     {
         public string RequestNumber()
         {
-            return GetNumber().ToString();
+            return Convert.ToString(GetNumber());
         }
     }
 }
