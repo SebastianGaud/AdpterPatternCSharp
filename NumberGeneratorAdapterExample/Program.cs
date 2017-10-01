@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace NumberGeneratorAdapterExample
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            var reader = new StringReaderClient();
+            var adapter = new NumberAdapter();
+
+            reader.Read(adapter.RequestNumber());
+            reader.PrintValue();
         }
     }
 }
