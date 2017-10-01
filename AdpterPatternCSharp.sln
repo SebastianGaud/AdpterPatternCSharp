@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGeneratorAdapterExamp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAdapterTest", "EmployeeAdapterTest\EmployeeAdapterTest.csproj", "{F084BF58-46D2-4AF8-B209-D07D5C02A709}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGeneratorAdapterTest", "NumberGeneratorAdapterTest\NumberGeneratorAdapterTest.csproj", "{DC6C37E8-105B-4F5C-BD6D-942FA0C29E1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F084BF58-46D2-4AF8-B209-D07D5C02A709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F084BF58-46D2-4AF8-B209-D07D5C02A709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F084BF58-46D2-4AF8-B209-D07D5C02A709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6C37E8-105B-4F5C-BD6D-942FA0C29E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6C37E8-105B-4F5C-BD6D-942FA0C29E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6C37E8-105B-4F5C-BD6D-942FA0C29E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6C37E8-105B-4F5C-BD6D-942FA0C29E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

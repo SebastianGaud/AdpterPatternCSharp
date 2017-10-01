@@ -17,7 +17,7 @@ namespace AdpterPatternCSharp
 
         public override string FullName
         {
-            get { return _employee.FirstName + " " + _employee.LastName}
+            get { return _employee.FirstName + " " + _employee.LastName; }
         }
     }
 }
